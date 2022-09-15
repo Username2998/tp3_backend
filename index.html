@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>tp3_backend</h1>
+    </header>
+
+    <main>
+        <form id="login_form" class="form_class" action="login.php" method="post">
+            <div class="form_div">
+                <label>Login:</label>
+                <input class="field_class" id="textfield1" onclick="ClearFields()" onfocus="ClearFields()"
+                    name="login_txt" type="text" value="" placeholder="Username">
+
+                <label>Password:</label>
+                <input class="field_class" id="textfield2" name="password_txt" type="password" autocomplete="off"
+                    value="" placeholder="Password">
+
+                <p class="credentials">Username: Admin <br>
+                    Pasword: 12
+                </p>
+
+                <input class="submit_class" type="submit" onclick="return validarLogin()" name="Submit" value="LOGIN">
+
+
+            </div>
+
+        </form>
+    </main>
+
+
+</body>
+
+</html>
