@@ -10,7 +10,7 @@ $ckpaz = "12";
 if ($usuario == $ckusr && $contraseña == $ckpaz) { 
     echo '<script>
     /* var jsuser = $usuario2; */
-    window.location.href="succes.html";
+    window.location.href="/succes.html";
     alert("                                         LETS CELEBRATE ADMIN" );
    
     </script>';
